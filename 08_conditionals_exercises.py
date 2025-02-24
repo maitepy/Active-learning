@@ -70,5 +70,7 @@ if color == "red" or "Red" or "RED":
     print("STOP!")
 elif color == "green" or "Green" or "GREEN":
     print("GO AHEAD!")
-elif color == "yellow":
+elif color == "yellow" or "Yellow" or "YELLOW":
     print("pay attention")
+else:
+    print("please choose red, green or yelow")
