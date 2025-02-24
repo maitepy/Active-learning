@@ -2,8 +2,8 @@
 my_dict = {"Name": "maite", "Age": 43, "Country": "Spain"}
 print(my_dict)
 
-# 2 acceder a in valor 
-print(my_dict.get("Name"))
+# 2 acceder a un valor 
+print(my_dict["Name"])
 
 # 3 añadir clave al diccionario
 my_dict["job"] = "Programador"
@@ -39,3 +39,4 @@ print(type(my_list))
 
 new_dict = dict.fromkeys(my_list, "desconocido")
 print(new_dict)
+
